@@ -1,0 +1,177 @@
+/* Cxt Capital Technologies - Fonts */
+@font-face{
+  font-family: Assistant-Bold;
+  src: url('./../../fonts/Assistant/Assistant-Bold.ttf');
+}
+@font-face{
+  font-family: Assistant-ExtraBold;
+  src: url('./../../fonts/Assistant/Assistant-ExtraBold.ttf');
+}
+@font-face{
+  font-family: Assistant-ExtraLight;
+  src: url('./../../fonts/Assistant/Assistant-ExtraLight.ttf');
+}
+@font-face{
+  font-family: Assistant-Light;
+  src: url('./../../fonts/Assistant/Assistant-Light.ttf');
+}
+@font-face{
+  font-family: Assistant-Medium;
+  src: url('./../../fonts/Assistant/Assistant-Medium.ttf');
+}
+@font-face{
+  font-family: Assistant-Regular;
+  src: url('./../../fonts/Assistant/Assistant-Regular.ttf');
+}
+@font-face{
+  font-family: Assistant-Regular;
+  src: url('./../../fonts/Assistant/Assistant-Regular.ttf');
+}
+
+/* Cxt Capital Technologies - implementation of basics fonts rules */
+body {
+  /*padding-top: 3.5rem;*/
+  /*font-family: Assistant-Regular !important;*/
+}
+h1 {
+  font-family: Assistant-Bold !important;
+}
+h2 {
+  font-family: Assistant-Medium !important;
+}
+h3, h4, ul {
+  font-family: Assistant-Regular !important;
+}
+p {
+  font-family: Assistant-Light !important;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: Assistant-Light !important;
+}
+a:hover, a:focus {
+  color: #9ef5b5;
+  text-decoration: none;
+  font-family: Assistant-Light !important;
+}
+
+/* Cxt Capital Technologies - Nav Bar */
+
+.navbar-brand img.logo {
+  width: 55px;
+}
+.navbar-brand .site-title {
+  margin-left: 1rem;
+  margin-bottom: 0px;
+}
+.nav-link {
+  font-family: Assistant-Medium !important;
+}
+/* Nav Menu Color Style */
+.ccatext-green-p {
+  color: #7CFFA3 !important;
+}
+/* Nav Menu Dropdown */
+.ccabg-grey-p {
+  background-color: #15171d !important;
+}
+
+.ccatext-ddwn-green-p {
+  color: #7CFFA3!important;
+}
+.ccatext-ddwn-green-p:focus, .ccatext-ddwn-green-p:hover {
+  color: #15171d !important;
+}
+
+/* Cxt Capital Technologies - Carousel */
+
+.bg-img-1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-img-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-img-3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.img-carousel-screen_X {
+  height: 100vh;
+} 
+
+@media screen and (max-width: 600px) {   
+  .bg-img-1{
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_5.jpg); 
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_5.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_5.jpg); 
+  } 
+}
+@media screen and (min-width: 601px) {      
+  .bg-img-1{      
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+  } 
+} 
+@media (min-width: 680px) {      
+  .bg-img-1{        
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_3.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_3.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_3.jpg); 
+  } 
+}
+@media (min-width: 835px) {      
+  .bg-img-1{        
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_2.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_2.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_2.jpg); 
+  } 
+}
+@media (min-width: 1200px) {    
+  .bg-img-1{         
+       background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_1.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_1.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_1.jpg); 
+  } 
+}
+
+@media (min-width: 1300px) {    
+  .bg-img-1{         
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_0.jpg); 
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_0.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_0.jpg); 
+  } 
+}

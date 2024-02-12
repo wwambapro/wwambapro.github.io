@@ -105,8 +105,8 @@ a:hover, a:focus {
 }
 
 .img-carousel-screen_X {
-  margin-top: 10vh !important;
-  height: 90vh;
+  margin-top: 0vh !important;
+  height: 100vh;
 }
 
 .carousel-item section div{

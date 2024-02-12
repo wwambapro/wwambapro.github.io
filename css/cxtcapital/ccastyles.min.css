@@ -273,7 +273,7 @@ a:hover, a:focus {
     margin: 0px auto 0px auto;
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 10vh;
+    font-size: 8.75vh;
   }
   .container-text .cxt-text-size {
     margin: 0px auto 0px auto;
@@ -288,13 +288,13 @@ a:hover, a:focus {
 }
 @media (min-width: 750px) {      
   .bg-img-1{        
-    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_3.jpg);
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_2.jpg);
   } 
   .bg-img-2{
-    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_3.jpg); 
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_2.jpg); 
   } 
   .bg-img-3{
-    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_3.jpg); 
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_2.jpg); 
   } 
   .content-logo {
     width: 15vw;
@@ -303,7 +303,7 @@ a:hover, a:focus {
     margin: 0px auto 0px auto;
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 10vh;
+    font-size: 9vh;
   }
   .container-text .cxt-text-size {
     margin: 0px auto 0px auto;
@@ -333,7 +333,7 @@ a:hover, a:focus {
     margin: 0px auto 0px auto;
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 11vh;
+    font-size: 10.5vh;
   }
   .container-text .cxt-text-size {
     margin: 0px auto 0px auto;

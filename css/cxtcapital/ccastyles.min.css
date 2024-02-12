@@ -77,6 +77,10 @@ a:hover, a:focus {
   background-color: #15171d !important;
 }
 
+.ccabg-size-p {
+  font-size: 1.5em !important;
+}
+
 .ccatext-ddwn-green-p {
   color: #7CFFA3!important;
 }
@@ -205,6 +209,11 @@ a:hover, a:focus {
   .content-logo {
     width: 20vw;
   } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.09em  !important;
+    margin-top: 3px;
+  }
   .container-title .cxt-title-size {
     margin: 0px auto 0px auto;
     padding-left: 3px;
@@ -232,6 +241,11 @@ a:hover, a:focus {
   .bg-img-3{
     background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
   } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.19em  !important;
+    margin-top: 2.25px;
+  }
   .content-logo {
     width: 17vw;
   }    
@@ -266,6 +280,11 @@ a:hover, a:focus {
   .bg-img-3{
     background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_3.jpg); 
   } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.22em  !important;
+    margin-top: 1.75px;
+  }
   .content-logo {
     width: 15vw;
   }    
@@ -296,6 +315,11 @@ a:hover, a:focus {
   .bg-img-3{
     background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_2.jpg); 
   } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.42em  !important;
+    margin-top: 1.5px;
+  }
   .content-logo {
     width: 15vw;
   }    
@@ -326,6 +350,11 @@ a:hover, a:focus {
   .bg-img-3{
     background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_2.jpg); 
   } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.42em  !important;
+    margin-top: 1.5px;
+  }
   .content-logo {
     width: 13vw;
   }  
@@ -357,6 +386,9 @@ a:hover, a:focus {
   .bg-img-3{
     background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_1.jpg); 
   } 
+  .ccabg-size-p {
+    font-size: 1.50em  !important;
+  }
   .content-logo {
     width: 12vw;
   } 
@@ -387,6 +419,9 @@ a:hover, a:focus {
   .bg-img-3{
     background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_0.jpg); 
   } 
+  .ccabg-size-p {
+    font-size: 1.55em ;
+  }
   .content-logo {
     width: 10vw;
   }  

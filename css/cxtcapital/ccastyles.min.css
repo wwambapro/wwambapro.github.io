@@ -105,8 +105,8 @@ a:hover, a:focus {
 }
 
 .img-carousel-screen_X {
-  margin-top: 0vh !important;
-  height: 100vh;
+  margin-top: 10vh;
+  height: 90vh;
 }
 
 .carousel-item section div{
@@ -251,6 +251,10 @@ a:hover, a:focus {
     padding-right: 5vw;
     font-size: 3.5vh;
   }
+  .img-carousel-screen_X {
+    margin-top: 8vh;
+    height: 92vh;
+  }
 } 
 @media (min-width: 680px) {      
   .bg-img-1{        
@@ -277,6 +281,40 @@ a:hover, a:focus {
     padding-right: 5vw;
     font-size: 3.75vh;
   }
+  .img-carousel-screen_X {
+    margin-top: 7vh;
+    height: 93vh;
+  }
+}
+@media (min-width: 750px) {      
+  .bg-img-1{        
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_3.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_3.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_3.jpg); 
+  } 
+  .content-logo {
+    width: 15vw;
+  }    
+  .container-title .cxt-title-size {
+    margin: 0px auto 0px auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 10vh;
+  }
+  .container-text .cxt-text-size {
+    margin: 0px auto 0px auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 3.75vh;
+  }
+  .img-carousel-screen_X {
+    margin-top: 5vh;
+    height: 95vh;
+  }
 }
 @media (min-width: 835px) {      
   .bg-img-1{        
@@ -302,6 +340,10 @@ a:hover, a:focus {
     padding-left: 5vw;
     padding-right: 5vw;
     font-size: 4vh;
+  }
+  .img-carousel-screen_X {
+    margin-top: 4vh;
+    height: 96vh;
   }
 }
 @media (min-width: 1200px) { 
@@ -330,8 +372,11 @@ a:hover, a:focus {
     padding-right: 5vw;
     font-size: 4vh;
   }
+  .img-carousel-screen_X {
+    margin-top: 10vh;
+    height: 90vh;
+  }
 }
-
 @media (min-width: 1300px) {    
   .bg-img-1{         
     background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_0.jpg); 
@@ -357,4 +402,8 @@ a:hover, a:focus {
     padding-right: 5vw;
     font-size: 4vh;
   } 
+  .img-carousel-screen_X {
+    margin-top: 5vh;
+    height: 95vh;
+  }
 }

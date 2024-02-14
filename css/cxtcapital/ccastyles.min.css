@@ -27,7 +27,6 @@
   font-family: Assistant-Regular;
   src: url('./../../fonts/Assistant/Assistant-Regular.ttf');
 }
-
 /* Cxt Capital Technologies - implementation of basics fonts rules */
 body {
   /*padding-top: 3.5rem;*/
@@ -55,9 +54,7 @@ a:hover, a:focus {
   text-decoration: none;
   font-family: Assistant-Light !important;
 }
-
 /* Cxt Capital Technologies - Nav Bar */
-
 .navbar-brand img.logo {
   width: 55px;
 }
@@ -76,67 +73,61 @@ a:hover, a:focus {
 .ccabg-grey-p {
   background-color: #15171d !important;
 }
-
 .ccabg-size-p {
   font-size: 1.5em !important;
 }
-
 .ccatext-ddwn-green-p {
   color: #7CFFA3!important;
 }
 .ccatext-ddwn-green-p:focus, .ccatext-ddwn-green-p:hover {
   color: #15171d !important;
 }
-
 /* Cxt Capital Technologies - Carousel */
-
 .bg-img-1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .bg-img-2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .bg-img-3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
-
 .img-carousel-screen_X {
   margin-top: 10vh;
   height: 90vh;
 }
-
+.content-logo {
+  width: 32%;
+  display:  block;  
+  margin-left:  34%;
+  margin-top: -3px;
+} 
 .carousel-item section div{
   display: inline-block;
   margin-top: 10vh;
 }
-
 .container-logo {
   display: grid;
   grid-template-columns: 14% 14.3% 14.3% 14.8% 14.3% 14.3% 14%;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .section_title_div {
   display: grid;
   margin-top: -10vh;
 }
-
 .container-title {
   display: grid;
   grid-template-columns: 20% 60% 20%;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .container-title h1{
   display: table;
   text-align: center !important;
@@ -145,26 +136,22 @@ a:hover, a:focus {
   background: rgb(0,0,4);
   background: linear-gradient(27deg, rgba(0,0,4,1) 0%, rgba(39,39,39,0.9594537644159227) 29%, rgba(64,64,65,0.9174369576932335) 44%, rgba(96,96,96,0.8334033442478554) 65%, rgba(151,151,151,0.8109943806624212) 83%, rgba(182,182,183,0.6821428400461746) 91%, rgba(207,207,207,0.5728991425671831) 95%, rgba(251,251,251,0.27598037506018036) 99%);
 }
-
 .container-title .cxt-title-size {
   margin: 0px auto 0px auto;
   padding-left: 3px;
   padding-right: 3px;
   font-size: 12vh;
 }
-
 .section_text_div {
   display: grid;
   margin-top: -35vh;
 }
-
 .container-text {
   display: grid;
   grid-template-columns: 10% 10% 60% 10% 10%;
   justify-content: space-evenly;
   align-items: center;  
 }
-
 .container-text p{
   display: table;
   text-align: center !important;
@@ -173,64 +160,278 @@ a:hover, a:focus {
   border-radius:  3px;
   box-shadow: 1px 1px #3B3B3B;
 }
-
 .container-text .cxt-text-size {
   margin: 0px auto 0px auto;
   padding-left: 5vw;
   padding-right: 5vw;
   font-size: 4vh;
 }
-
 .container-text .cxt-color-blue {
   color: #002060;
   border-color: #4472C4;
 }
-
 .container-text .cxt-color-red {
  color: #C00000;
  border-color: #C00000;
 }
-
 .container-text .cxt-color-green {
   color: #003300;
   border-color: #00B050;
 }
-
-@media screen and (max-width: 600px) {  
-  .bg-img-1{
-    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_5.jpg); 
+@media screen and (max-width: 350px) {   
+  .bg-img-1{      
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
   } 
   .bg-img-2{
-    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_5.jpg); 
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
   } 
   .bg-img-3{
-    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_5.jpg); 
-  } 
-  .content-logo {
-    width: 20vw;
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
   } 
   .ccabg-size-p {
     vertical-align: center;
-    font-size: 0.89em  !important;
-    margin-top: 3px;
+    font-size: 1.19em !important;
+    margin-top: 2.25px;
   }
+  .container-logo {
+    display: grid;
+    grid-template-columns: 7% 10% 15% 36% 15% 10% 7%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .content-logo {
+    width: 77%;
+    /*margin-left:  10px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  11.5%;
+  }    
   .container-title .cxt-title-size {
     margin: 0px auto 0px auto;
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 6vh;
+    font-size: 4.15vh;
   }
   .section_text_div {
     display: grid;
-    margin-top: -33vh;
+    margin-top: -31vh;
   }
   .container-text .cxt-text-size {
     margin: 0px auto 0px auto;
     padding-left: 5vw;
     padding-right: 5vw;
-    font-size: 3vh;
+    font-size: 2.15vh;
+    margin-top: -15px;
+  }
+  .img-carousel-screen_X {
+    margin-top: 8vh;
+    height: 92vh;
+  }
+} 
+@media screen and (min-width: 350.1px) {   
+  .bg-img-1{      
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+  } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.19em !important;
+    margin-top: 2.25px;
+  }
+  .container-logo {
+    display: grid;
+    grid-template-columns: 7% 10% 15% 36% 15% 10% 7%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .content-logo {
+    width: 75%;
+    /*margin-left:  10px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  12.5%;
+    margin-top: 39px;
+  }    
+  .container-title .cxt-title-size {
+    margin: 0px auto 0px auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 4.15vh;
+  }
+  .section_text_div {
+    display: grid;
+    margin-top: -31vh;
+  }
+  .container-text .cxt-text-size {
+    margin: 0px auto 0px auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 2.15vh;
+    margin-top: -15px;
+  }
+  .img-carousel-screen_X {
+    margin-top: 8vh;
+    height: 92vh;
+  }
+} 
+@media screen and (min-width: 384px) {   
+  .bg-img-1{      
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+  } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.22em !important;
+    margin-top: 2.25px;
+  }
+  .container-logo {
+    display: grid;
+    grid-template-columns: 7% 10% 15% 36% 15% 10% 7%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .content-logo {
+    width: 70%;
+    /*margin-left:  10px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  15%;
+  }    
+  .container-title .cxt-title-size {
+    margin: 0px auto 0px auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 4.65vh;
+    margin-top: -17px;
+  }
+  .section_text_div {
+    display: grid;
+    margin-top: -31vh;
+  }
+  .container-text .cxt-text-size {
+    margin: 0px auto 0px auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 2.15vh; 
+    margin-top: -9px;   
+  }
+  .img-carousel-screen_X {
+    margin-top: 8vh;
+    height: 92vh;
   }
 }
+@media screen and (min-width: 480px) {   
+  .bg-img-1{      
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+  } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.22em !important;
+    margin-top: 2.25px;
+  }
+  .container-logo {
+    display: grid;
+    grid-template-columns: 7% 10% 15% 36% 15% 10% 7%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .content-logo {
+    width: 65%;
+    /*margin-left:  10px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  17.5%;
+  }    
+  .container-title .cxt-title-size {
+    margin: 0px auto 0px auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 5.65vh;
+    margin-top: -17px;
+  }
+  .section_text_div {
+    display: grid;
+    margin-top: -31vh;
+  }
+  .container-text .cxt-text-size {
+    margin: 0px auto 0px auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 2.85vh; 
+    margin-top: -9px;   
+  }
+  .img-carousel-screen_X {
+    margin-top: 8vh;
+    height: 92vh;
+  }
+} 
+@media screen and (min-width: 550px) {   
+  .bg-img-1{      
+    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+  } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.22em !important;
+    margin-top: 2.25px;
+  }
+  .container-logo {
+    display: grid;
+    grid-template-columns: 7% 10% 15% 36% 15% 10% 7%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .content-logo {
+    width: 61%;
+    /*margin-left:  10px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  17.5%;
+  }    
+  .container-title .cxt-title-size {
+    margin: 0px auto 0px auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 6.45vh;
+    margin-top: -17px;
+  }
+  .section_text_div {
+    display: grid;
+    margin-top: -31vh;
+  }
+  .container-text .cxt-text-size {
+    margin: 0px auto 0px auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 3.15vh; 
+    margin-top: -14px;   
+  }
+  .img-carousel-screen_X {
+    margin-top: 8vh;
+    height: 92vh;
+  }
+} 
 @media screen and (min-width: 601px) {   
   .bg-img-1{      
     background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
@@ -247,7 +448,11 @@ a:hover, a:focus {
     margin-top: 2.25px;
   }
   .content-logo {
-    width: 17vw;
+    width: 52%;
+    /*margin-left:  25px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  24%;
   }    
   .container-title .cxt-title-size {
     margin: 0px auto 0px auto;
@@ -286,13 +491,17 @@ a:hover, a:focus {
     margin-top: 1.75px;
   }
   .content-logo {
-    width: 15vw;
+    width: 46%;
+    /*margin-left:  29px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  27%;
   }    
   .container-title .cxt-title-size {
     margin: 0px auto 0px auto;
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 8.75vh;
+    font-size: 8.55vh;
   }
   .container-text .cxt-text-size {
     margin: 0px auto 0px auto;
@@ -321,7 +530,11 @@ a:hover, a:focus {
     margin-top: 1.5px;
   }
   .content-logo {
-    width: 15vw;
+    width: 42%;
+    /*margin-left:  45px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  29%;
   }    
   .container-title .cxt-title-size {
     margin: 0px auto 0px auto;
@@ -356,19 +569,23 @@ a:hover, a:focus {
     margin-top: 1.5px;
   }
   .content-logo {
-    width: 13vw;
+    width: 38%;
+    /*margin-left:  55px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  32%;
   }  
   .container-title .cxt-title-size {
     margin: 0px auto 0px auto;
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 10.5vh;
+    font-size: 10.15vh;
   }
   .container-text .cxt-text-size {
     margin: 0px auto 0px auto;
     padding-left: 5vw;
     padding-right: 5vw;
-    font-size: 4vh;
+    font-size: 3.85vh;
   }
   .img-carousel-screen_X {
     margin-top: 4vh;
@@ -390,19 +607,24 @@ a:hover, a:focus {
     font-size: 1.50em  !important;
   }
   .content-logo {
-    width: 12vw;
+    width: 32%;
+    /*margin-left:  120px;
+    margin-top: 10px;*/
+    display:  block;  
+    margin-left:  34%;
+    margin-top: -3px;
   } 
   .container-title .cxt-title-size {
     margin: 0px auto 0px auto;
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 12vh;
+    font-size: 10.15vh;
   }
   .container-text .cxt-text-size {
     margin: 0px auto 0px auto;
     padding-left: 5vw;
     padding-right: 5vw;
-    font-size: 4vh;
+    font-size: 3.85vh;
   }
   .img-carousel-screen_X {
     margin-top: 10vh;
@@ -423,7 +645,10 @@ a:hover, a:focus {
     font-size: 1.55em ;
   }
   .content-logo {
-    width: 10vw;
+    width: 32%;
+    display:  block;  
+    margin-left:  34%;
+    margin-top: 19px;
   }  
   .container-title .cxt-title-size {
     margin: 0px auto 0px auto;

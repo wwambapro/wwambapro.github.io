@@ -183,7 +183,7 @@ a:hover, a:focus {
 }
 /* Cxt Capital Technologies - cca-about-us */
 .about-us {
-  height: 90vh;
+  height: 100vh;
   background-color: #0c1719;
 }
 .section {
@@ -218,8 +218,142 @@ a:hover, a:focus {
   height: 100%;
 }
 /* Cxt Capital Technologies - cca-our-expertise */
-.row {
-  padding: 0 15px;
+.cxt-expertise{
+  height: 100%;
+  padding: 35px;
+}
+.cxt-text-height{
+  height: 30vh;
+}
+.cxt-img-thumbnail {
+  display: block;
+  height: 24vh; 
+  width: 100%; 
+}
+.why-choose-us section {
+    display: block;
+    height: 80vh;
+}
+.why-choose-us .img-wrapper {
+  position: relative;
+  z-index: 100;
+}
+.why-choose-us .illustration {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  position: relative;
+  z-index: 10;
+  filter: brightness(90%);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.why-choose-us ul {
+  padding-left: 0px;
+}
+.why-choose-us li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.why-choose-us li img {
+  margin-right: 1rem;
+}
+.cxt-blk{
+  font-family: Assistant-Medium !important;
+  padding-top: 6px;
+  position: absolute;
+  font-size: 1.705rem;
+  text-align: left;
+}
+.cxt-bmar-section{
+  background-color: #0E1721 !important;
+}
+.cxt-two-section {
+  color: #7CFFA3!important;
+}
+.cxt-marine-section{
+  color: #e9cb9d !important;
+}
+.cxt-footer-main{
+  background: url("./../../imgs/footer/footer-07.jpg"); 
+  background-size: cover;
+}
+.notice-short{
+  display:none;
+  visibility:hidden;
+}
+.notice-normal{
+  display:block;
+  visibility:visible;
+}
+.btn-cxt-green{
+  color:#7CFFA3 ;
+  background-color:#000b12;
+  border-color:#000b12;
+}
+.btn-cxt-green:hover{
+  color:#000b12 ;
+  background-color:#28ed97;
+  border-color:#28ed97;
+}
+.copyright p {
+  color: white !important;
+}
+footer {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,34,160,1) 73%, rgba(14,122,194,1) 100%);
+  color: white !important;
+}
+footer .navbar-brand {
+  justify-content: flex-start;
+  color: white;
+}
+footer .navbar-brand:hover {
+  color: white;
+}
+footer h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+footer ul {
+  padding-left: 0px;
+  list-style: none;
+  color: white;
+}
+footer li {
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  color: white;
+}
+footer a, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover, a:focus {
+  color: #9ef5b5;
+  text-decoration: none;
+  font-family: Assistant-Light !important;
+}
+footer .payments .col-lg-4 {
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem;
+}
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.social-icons .fa-brands {
+  font-size: 1.25rem;
+  color: white;
+}
+.social-icons .fa-brands:hover {
+  color: white;
 }
 @media screen and (max-width: 300px) { 
   /* cca-navbar */  
@@ -283,6 +417,9 @@ a:hover, a:focus {
   .img-carousel-screen_X {
     margin-top: 6vh;
     height: 94vh;
+  }
+  .cxt-text-height{
+    height: 75vh;
   }
 } 
 @media screen and (min-width: 300.1px) {  
@@ -348,7 +485,15 @@ a:hover, a:focus {
     margin-top: 8vh;
     height: 92vh;
   }
+  .cxt-text-height{
+    height: 75vh;
+  }
 } 
+@media screen and (min-width: 354px) {   
+  .cxt-text-height{
+    height: 63vh;
+  }
+}
 @media screen and (min-width: 384px) {   
   /* cca-carousel */ 
   .bg-img-1{      
@@ -399,6 +544,14 @@ a:hover, a:focus {
   .img-carousel-screen_X {
     margin-top: 8vh;
     height: 92vh;
+  }
+  .cxt-text-height{
+    height:58vh;
+  }
+}
+@media screen and (min-width: 434px) {   
+  .cxt-text-height{
+    height: 45vh;
   }
 }
 @media screen and (min-width: 480px) { 
@@ -451,6 +604,9 @@ a:hover, a:focus {
   .img-carousel-screen_X {
     margin-top: 8vh;
     height: 92vh;
+  }
+  .cxt-text-height{
+    height: 39vh;
   }
 } 
 @media screen and (min-width: 550px) {   
@@ -553,6 +709,11 @@ a:hover, a:focus {
     height: 92vh;
   }
 } 
+@media screen and (min-width: 634px) {   
+  .cxt-text-height{
+    height: 30vh;
+  }
+}
 @media (min-width: 680px) {  
   /* cca-carousel */     
   .bg-img-1{        
@@ -632,6 +793,16 @@ a:hover, a:focus {
     margin-top: 5vh;
     height: 95vh;
   }
+  .container-embed{
+  position: relative;
+  overflow: hidden;
+  width: 105%;
+  padding-top: 59.0625%; 
+  /* 16:9 Aspect Ratio (divide 9 by 16=0.5625) */
+}
+  .cxt-text-height{
+    height: 55vh;
+  }
 }
 @media (min-width: 835px) {
   /* cca-carousel */       
@@ -673,6 +844,11 @@ a:hover, a:focus {
     height: 96vh;
   }
 }
+@media (min-width: 990px) { 
+  .cxt-text-height{
+    height: 45vh;
+  }
+}
 @media (min-width: 1200px) { 
   /* cca-carousel */ 
   .bg-img-1{      
@@ -712,6 +888,9 @@ a:hover, a:focus {
     margin-top: 9vh;
     height: 91vh;
   }
+  .cxt-text-height{
+    height: 31vh;
+  }
 }
 @media (min-width: 1300px) { 
   /* cca-carousel */    
@@ -748,5 +927,8 @@ a:hover, a:focus {
   .img-carousel-screen_X {
     margin-top: 5vh;
     height: 95vh;
+  }
+  .cxt-text-height{
+    height: 31vh;
   }
 }

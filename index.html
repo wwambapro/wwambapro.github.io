@@ -8,8 +8,9 @@
       <link rel="shortcut icon" href="./imgs/logo/cxt-logo-light-brown.png" type="image/x-icon">
       <link href="./css/cxtcapital/ccastyles.min.css" rel="stylesheet" type="text/css" />
       <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
-      <script src="./vendor/js/bootstrap.bundle.min.js" defer></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+      <script src="./vendor/js/bootstrap.bundle.min.js" defer=""></script>
+      <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" /> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -169,10 +170,10 @@
       <!-- cca-about-us -->
       <div class="about-us section" id="about-us">
         <div class="container">
-          <div class="row">
+          <div class="row cxt-about-us-row">
               <h1 class="text-center"><p class="text-light font-weight-bold">About Us</p></h1>
           </div>
-          <div class="row">
+          <div class="row cxt-about-us-row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
               <div class="container-embed">
@@ -180,6 +181,8 @@
               </div>
             </div>
             <div class="col-md-2"></div>
+          </div>
+          <div class="row cxt-about-us-row">
           </div>
         </div>
       </div>
@@ -245,114 +248,87 @@
         </div>
       </div>
 
-
-  <!-- cca-why-choose-us -->
-  <div class="why-choose-us section">
-    <div class="container">
-      <div class="row gap-3 gap-lg-0">
-        <div class="col-lg-6 img-wrapper">
-          <img src="./imgs/main/choose/choose-05.jpg" alt="" class="illustration">
-        </div>
-        <div class="col-lg-6 justify-content-center d-flex flex-column">
-          <h2 class="mt-4">Why choose us</h2>
-          <ul class="d-flex justify-content-center flex-column gap-4 mt-lg-4">
-            <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We deliver governance and strategy related engagements ;</li>
-            <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We deliver methodologies and/or documentation review components ;</li>
-            <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We deliver simulations and impact assessments toward TOMs ;</li>
-            <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We deliver tactical solutions deepening and increasing the scope of the analysis process ;</li>
-            <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We support the IT functions in the production chain and/or in reporting BAUs and changes implementation.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- cca-footer -->
-  <footer class="section top cxt-footer-main">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="notice-normal">
-            <a class="navbar-brand mb-2" href="#">
-              <img src="./imgs/logo/cxt-logo-light-brown.png" alt="logo" width="55" height="auto" class="logo d-inline-block align-text-top">
-              <span class="site-title  cxt-blk align-middle ccatext-green-p">Cxt Capital Advisors</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-3 mt-2">
-          <div class="notice-normal cxt-marine-section">
-            <h4 class="cxt-two-section">Quick Link</h4>
-          </div>
-        </div>
-        <div class="col-md-4 mt-2">
-            <div class="notice-normal cxt-marine-section">
-              <h4 class="cxt-two-section">Our Business</h4>
+      <!-- cca-why-choose-us -->
+      <div class="why-choose-us section">
+        <div class="container">
+          <div class="row gap-3 gap-lg-0">
+            <div class="col-lg-6 img-wrapper">
+              <img src="./imgs/main/choose/choose-05.jpg" alt="" class="illustration">
             </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-5">
-          <div class="notice-short">
-            <a class="navbar-brand mb-2" href="#">
-              <img src="./imgs/logo/cxt-logo-light-brown.png" alt="" class="logo">
-              <span class="site-title cxt-blk align-middle ccatext-green-p">Cxt Capital Advisors</span>
-            </a>
-          </div>
-            <p class="text-light" style="width: 15rem; padding-top: 8px;">
-              10 Fitzroy Square</br>
-              London, England, W1T 5HP</br>
-              info@cxtcapital.co.uk
-            </p>
-        </div>
-        <div class="col-md-3 mt-2">
-          <div class="notice-short cxt-marine-section">
-            <h4 class="cxt-two-section">Quick Link</h4>
-          </div>
-          <ul style="width: 12rem;">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4 mt-2">
-            <div class="notice-short">
-              <h4 class="cxt-two-section">Our Business</h4>
+            <div class="col-lg-6 justify-content-center d-flex flex-column">
+              <h2 class="mt-4">Why choose us</h2>
+              <ul class="d-flex justify-content-center flex-column gap-4 mt-lg-4">
+                <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We deliver governance and strategy related engagements ;</li>
+                <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We deliver methodologies and/or documentation review components ;</li>
+                <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We deliver simulations and impact assessments toward TOMs ;</li>
+                <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We deliver tactical solutions deepening and increasing the scope of the analysis process ;</li>
+                <li><img src="./imgs/main/icons/cxt-green-arrow.png" alt="">We support the IT functions in the production chain and/or in reporting BAUs and changes implementation.</li>
+              </ul>
             </div>
-          <ul style="width: 12rem;">
-            <li><a href="#expertise">Advisory</a></li>
-            <li><a href="#expertise">Analytics</a></li>
-            <li><a href="#expertise">Applications</a></li>
-          </ul>
+          </div>
         </div>
       </div>
 
-      <div class="d-flex mt-5 justify-content-center flex-column flex-md-row">
-        <div class="copyright text-center col-md-5">
-          <p>©2024 CXT CAPITAL ADVISORS, All rights reserved.    
-          </p>
-        </div>
-        <div class="copyright text-center col-md-5">
-          <p>
-            <span class="cxt-two-section">&#x0377;</span> &nbsp; &#32; 
-            <a href="./legal/disclaimer.html">Disclaimer</a> &nbsp; &#32; 
-            <span class="cxt-two-section">&#x0377;</span> &nbsp; &#32; 
-            <a href="./legal/privacy-policy.html">Privacy Policy</a> &nbsp; &#32; 
-            <span class="cxt-two-section">&#x0377;</span> &nbsp; &#32; 
-            <a href="./legal/terms-of-use.html">Terms of Use</a> &nbsp; &#32;
-            <span class="cxt-two-section">&#x0377;</span> 
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="social-icons d-flex justify-content-center pb-2 pt-2 cxt-bmar-section">
-      <i class="fa-brands fa-facebook-f"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-youtube"></i>
-      <i class="fa-brands fa-twitter"></i>
-    </div>
-  </footer>
+      <!-- cca-footer -->
+      <footer class="section top cxt-footer-main">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+                <a class="navbar-brand mb-2" href="#">
+                  <img src="./imgs/logo/cxt-logo-light-brown.png" alt="" class="logo">
+                  <span class="site-title cxt-blk align-middle ccatext-green-p">Cxt Capital Advisors</span>
+                </a>
+                <p class="text-light" style="width: 15rem; padding-top: 8px;">
+                  10 Fitzroy Square</br>
+                  London, England, W1T 5HP</br>
+                  info@cxtcapital.co.uk
+                </p>
+            </div>
+            <div class="col-md-3 mt-2">
+                <h4 class="cxt-two-section">Quick Link</h4>
+              <ul style="width: 12rem;">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mt-2">
+              <h4 class="cxt-two-section">Our Business</h4>
+              <ul style="width: 12rem;">
+                <li><a href="#expertise">Advisory</a></li>
+                <li><a href="#expertise">Analytics</a></li>
+                <li><a href="#expertise">Applications</a></li>
+              </ul>
+            </div>
+          </div>
 
+          <div class="d-flex mt-5 justify-content-center flex-column flex-md-row">
+            <div class="copyright text-center col-md-6">
+              <p>©2024 CXT CAPITAL ADVISORS, All rights reserved.    
+              </p>
+            </div>
+            <div class="copyright text-center col-md-6">
+              <p>
+                <span class="cxt-two-section">&#x0377;</span> &nbsp; &#32; 
+                <a href="./legal/disclaimer.html">Disclaimer</a> &nbsp; &#32; 
+                <span class="cxt-two-section">&#x0377;</span> &nbsp; &#32; 
+                <a href="./legal/privacy-policy.html">Privacy Policy</a> &nbsp; &#32; 
+                <span class="cxt-two-section">&#x0377;</span> &nbsp; &#32; 
+                <a href="./legal/terms-of-use.html">Terms of Use</a> &nbsp; &#32;
+                <span class="cxt-two-section">&#x0377;</span> 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="social-icons d-flex justify-content-center pb-2 pt-2 cxt-bmar-section">
+          <a href="https://www.youtube.com/@CXTCapitalAdvisors"><i class="fa-brands fa fa-youtube"></i></a>
+          <i class="fa-brands fa fa-instagram"></i>
+          <i class="fa-brands fa fa-twitter"></i>
+          <i class="fa-brands fa fa-facebook-f"></i>
+        </div>
+
+      </footer>
 
 
     </body> 

@@ -215,7 +215,10 @@ a:hover, a:focus {
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height:100%;
+}
+.cxt-about-us-row {
+  height: 20vh;
 }
 /* Cxt Capital Technologies - cca-our-expertise */
 .cxt-expertise{
@@ -223,7 +226,11 @@ a:hover, a:focus {
   padding: 35px;
 }
 .cxt-text-height{
-  height: 30vh;
+  height: 80%;
+  margin-bottom: 30px;
+}
+.cxt-text-height-0{
+  height: 35vh;
 }
 .cxt-img-thumbnail {
   display: block;
@@ -455,13 +462,13 @@ footer .payments .col-lg-4 {
   }
   /* cca-carousel */ 
   .bg-img-1{      
-    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_5.jpg);
   } 
   .bg-img-2{
-    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_5.jpg); 
   } 
   .bg-img-3{
-    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_5.jpg); 
   } 
   .ccabg-size-p {
     vertical-align: center;
@@ -504,7 +511,8 @@ footer .payments .col-lg-4 {
     height: 94vh;
   }
   .cxt-text-height{
-    height: 75vh;
+    height: 90%;
+    margin-bottom: 30px;
   }
 } 
 @media screen and (min-width: 300.1px) {  
@@ -522,13 +530,13 @@ footer .payments .col-lg-4 {
   } 
   /* cca-carousel */ 
   .bg-img-1{      
-    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_5.jpg);
   } 
   .bg-img-2{
-    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_5.jpg); 
   } 
   .bg-img-3{
-    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_5.jpg); 
   } 
   .ccabg-size-p {
     vertical-align: center;
@@ -571,24 +579,20 @@ footer .payments .col-lg-4 {
     height: 92vh;
   }
   .cxt-text-height{
-    height: 75vh;
+    height: 85%;
+    margin-bottom: 30px;
   }
 } 
-@media screen and (min-width: 354px) {   
-  .cxt-text-height{
-    height: 63vh;
-  }
-}
 @media screen and (min-width: 384px) {   
   /* cca-carousel */ 
   .bg-img-1{      
-    background-image: url(./../../imgs/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_5.jpg);
   } 
   .bg-img-2{
-    background-image: url(./../../imgs/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_5.jpg); 
   } 
   .bg-img-3{
-    background-image: url(./../../imgs/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_5.jpg); 
   } 
   .ccabg-size-p {
     vertical-align: center;
@@ -631,24 +635,20 @@ footer .payments .col-lg-4 {
     height: 92vh;
   }
   .cxt-text-height{
-    height:58vh;
-  }
-}
-@media screen and (min-width: 434px) {   
-  .cxt-text-height{
-    height: 45vh;
+    height: 75%;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 480px) { 
   /* cca-carousel */   
   .bg-img-1{      
-    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_4.jpg);
+    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_5.jpg);
   } 
   .bg-img-2{
-    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_4.jpg); 
+    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_5.jpg); 
   } 
   .bg-img-3{
-    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_4.jpg); 
+    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_5.jpg); 
   } 
   .ccabg-size-p {
     vertical-align: center;
@@ -691,7 +691,8 @@ footer .payments .col-lg-4 {
     height: 92vh;
   }
   .cxt-text-height{
-    height: 39vh;
+    height: 70%;
+    margin-bottom: 30px;
   }
 } 
 @media screen and (min-width: 550px) {   
@@ -749,6 +750,10 @@ footer .payments .col-lg-4 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
   }
+  .cxt-text-height{
+    height: 70%;
+    margin-bottom: 30px;
+  }
 } 
 @media screen and (min-width: 601px) {   
   /* cca-carousel */ 
@@ -793,12 +798,11 @@ footer .payments .col-lg-4 {
     margin-top: 8vh;
     height: 92vh;
   }
-} 
-@media screen and (min-width: 634px) {   
   .cxt-text-height{
-    height: 30vh;
+    height: 70%;
+    margin-bottom: 20px;
   }
-}
+} 
 @media (min-width: 680px) {  
   /* cca-carousel */     
   .bg-img-1{        
@@ -837,6 +841,10 @@ footer .payments .col-lg-4 {
   .img-carousel-screen_X {
     margin-top: 7vh;
     height: 93vh;
+  }
+  .cxt-text-height{
+    height: 70%;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 750px) {  
@@ -884,9 +892,58 @@ footer .payments .col-lg-4 {
   width: 105%;
   padding-top: 59.0625%; 
   /* 16:9 Aspect Ratio (divide 9 by 16=0.5625) */
-}
+  }
   .cxt-text-height{
-    height: 55vh;
+    height: 70%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {  
+  /* cca-carousel */       
+  .bg-img-1{        
+    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_2.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_2.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_2.jpg); 
+  } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.42em  !important;
+    margin-top: -4.7px;
+  }
+  .content-logo {
+    width: 38%;
+    /*margin-left:  55px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  32%;
+  }  
+  .container-title .cxt-title-size {
+    margin: 0px auto 0px auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 9.05vh;
+  }
+  .container-text .cxt-text-size {
+    margin: 0px auto 0px auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 3.85vh;
+  }
+  .img-carousel-screen_X {
+    margin-top: 4vh;
+    height: 96vh;
+  }
+  .cxt-text-height{
+    height: 88%;
+    margin-bottom: 20px;
+  } 
+  .cxt-text-height{
+    height: 88%;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 835px) {
@@ -928,10 +985,60 @@ footer .payments .col-lg-4 {
     margin-top: 4vh;
     height: 96vh;
   }
+  .cxt-text-height{
+    height: 88%;
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 990px) { 
+  /* cca-carousel */       
+  .bg-img-1{        
+    background-image: url(./../../imgs/main/carousel/bg-img-1/cxt_main_x01-screen_2.jpg);
+  } 
+  .bg-img-2{
+    background-image: url(./../../imgs/main/carousel/bg-img-2/cxt_main_x02-screen_2.jpg); 
+  } 
+  .bg-img-3{
+    background-image: url(./../../imgs/main/carousel/bg-img-3/cxt_main_x03-screen_2.jpg); 
+  } 
+  .ccabg-size-p {
+    vertical-align: center;
+    font-size: 1.42em  !important;
+    margin-top: -4.7px;
+  }
+  .content-logo {
+    width: 38%;
+    /*margin-left:  55px;
+    margin-top: 50px;*/
+    display:  block;  
+    margin-left:  32%;
+  }  
+  .container-title .cxt-title-size {
+    margin: 0px auto 0px auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 9.55vh;
+  }
+  .container-text .cxt-text-size {
+    margin: 0px auto 0px auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 3.85vh;
+  }
+  .img-carousel-screen_X {
+    margin-top: 4vh;
+    height: 96vh;
+  }
   .cxt-text-height{
-    height: 45vh;
+    height: 88%;
+    margin-bottom: 20px;
+  }
+  .cxt-text-height{
+    height: 80%;
+    margin-bottom: 20px;
+  }
+  .cxt-about-us-row {
+    height: 17vh;
   }
 }
 @media (min-width: 1200px) { 
@@ -974,7 +1081,11 @@ footer .payments .col-lg-4 {
     height: 91vh;
   }
   .cxt-text-height{
-    height: 31vh;
+    height: 80%;
+    margin-bottom: 20px;
+  }
+  .cxt-about-us-row {
+    height: 13vh;
   }
 }
 @media (min-width: 1300px) { 
@@ -1015,5 +1126,8 @@ footer .payments .col-lg-4 {
   }
   .cxt-text-height{
     height: 31vh;
+  }
+  .cxt-about-us-row {
+    height: 12vh;
   }
 }

@@ -9,6 +9,22 @@
          background-color: #f4f6f8;
          padding: 40px;
          }
+         .container {
+            padding: 40px;
+        }
+         .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-bottom: 30px;
+        }
+
+        .btn:hover {
+            background: #1f6691;
+        }
          h1 {
          text-align: center;
          }
@@ -37,404 +53,409 @@
       </style>
    </head>
    <body>
-      <h1>Suivi des candidatures</h1>
-      <table>
-         <thead>
-            <tr>
-               <th>#</th>
-               <th>Offre</th>
-               <th>Entreprise</th>
-               <th>Source</th>
-               <th>Lien</th>
-               <th>Date publication</th>
-               <th>Date candidature</th>
-               <th>Statut</th>
-               <th>Relance</th>
-               <th>Reponse</th>
-               <th>Notes</th>
-               <th>Document</th>
-            </tr>
-         </thead>
-         <tbody>
-            <tr>
-               <td>1</td>
-               <td>Gestionnaire risques bancaires F/H</td>
-               <td>0</td>
-               <td>France Travail</td>
-               <td>0</td>
-               <td></td>
-               <td>09/01/2026</td>
-               <td>Cloture</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>2</td>
-               <td>Responsable IT et Support en pré embauche</td>
-               <td>FreeWork</td>
-               <td>FreeWork</td>
-               <td>0</td>
-               <td></td>
-               <td>12/01/2026</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>3</td>
-               <td> Collateral Business Analyst - Client Services position</td>
-               <td>Murex</td>
-               <td>Murex Website</td>
-               <td>0</td>
-               <td></td>
-               <td>14/01/2026</td>
-               <td>Cloture</td>
-               <td></td>
-               <td>Non Retenu</td>
-               <td>Entretien RH</td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>4</td>
-               <td>Head of Operational Design</td>
-               <td>ING</td>
-               <td>ING</td>
-               <td>0</td>
-               <td></td>
-               <td>20/01/2026</td>
-               <td>Cloture</td>
-               <td></td>
-               <td>Non Retenu</td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>5</td>
-               <td>Chef de projet Data</td>
-               <td>FreeWork</td>
-               <td>FreeWork</td>
-               <td>0</td>
-               <td></td>
-               <td>21/01/2026</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>6</td>
-               <td>Market Data Risk Analyst</td>
-               <td>ING</td>
-               <td>ING</td>
-               <td>0</td>
-               <td></td>
-               <td>27/01/2026</td>
-               <td>Cloture</td>
-               <td></td>
-               <td>Non Retenu</td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>7</td>
-               <td> Counterparty Credit Risk Methodology Strat</td>
-               <td>Deutsche Bank</td>
-               <td>Deutsche Bank</td>
-               <td>0</td>
-               <td></td>
-               <td>28/01/2026</td>
-               <td>Cloture</td>
-               <td></td>
-               <td>Non Retenu</td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>8</td>
-               <td>Product Design</td>
-               <td>FreeWork</td>
-               <td>FreeWork</td>
-               <td>0</td>
-               <td></td>
-               <td>28/01/2026</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>9</td>
-               <td>Ingénieur Python / Automatisation</td>
-               <td>FreeWork</td>
-               <td>FreeWork</td>
-               <td>0</td>
-               <td></td>
-               <td>28/01/2026</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>10</td>
-               <td>Senior Portfolio Manager Analyst</td>
-               <td>BNP Paribas</td>
-               <td>BNP Paribas</td>
-               <td>0</td>
-               <td></td>
-               <td>02/02/2026</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>11</td>
-               <td>Model Risk Manager</td>
-               <td>BNP Paribas</td>
-               <td>BNP Paribas</td>
-               <td>0</td>
-               <td></td>
-               <td>02/02/2026</td>
-               <td>Cloture</td>
-               <td></td>
-               <td>Non Retenu</td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>12</td>
-               <td>Ingénieur support applicatif Equity</td>
-               <td>Credit Agricole</td>
-               <td>Credit Agricole</td>
-               <td>0</td>
-               <td></td>
-               <td>02/02/2026</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>13</td>
-               <td>Analyste quantitatif</td>
-               <td>Credit Agricole</td>
-               <td>Credit Agricole</td>
-               <td>0</td>
-               <td></td>
-               <td>02/02/2026</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>14</td>
-               <td>Senior Consultant - Transformation</td>
-               <td>Allianz Groupe</td>
-               <td>Allianz Groupe</td>
-               <td>0</td>
-               <td></td>
-               <td>17/11/2025</td>
-               <td></td>
-               <td>10/02/2026</td>
-               <td></td>
-               <td></td>
-               <td>CV WW</td>
-            </tr>
-            <tr>
-               <td>15</td>
-               <td>Data Quality Specialist</td>
-               <td>Allianz Groupe</td>
-               <td>Allianz Groupe</td>
-               <td>0</td>
-               <td></td>
-               <td>07/11/2025</td>
-               <td>Cloture</td>
-               <td></td>
-               <td>Non Retenu</td>
-               <td></td>
-               <td>CV WW</td>
-            </tr>
-            <tr>
-               <td>16</td>
-               <td>Data analyst</td>
-               <td>Allianz Groupe</td>
-               <td>Allianz Groupe</td>
-               <td>0</td>
-               <td></td>
-               <td>17/11/2025</td>
-               <td>Cloture</td>
-               <td></td>
-               <td>Non Retenu</td>
-               <td></td>
-               <td>CV WW</td>
-            </tr>
-            <tr>
-               <td>17</td>
-               <td> Gestionnaire Middle Office Opérations Financières H/F-CDD</td>
-               <td>Banque Palatine</td>
-               <td>Groupe BPCE</td>
-               <td>BQPA03388</td>
-               <td></td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>18</td>
-               <td>Risk Manager (F/H)</td>
-               <td>Natixis</td>
-               <td>Groupe BPCE</td>
-               <td>0</td>
-               <td>19/12/2025</td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>19</td>
-               <td>Data Analyst (F/H)</td>
-               <td>Groupe BPCE</td>
-               <td>Groupe BPCE</td>
-               <td>BPCE_INFO01118</td>
-               <td></td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>20</td>
-               <td>Ingénieur Quantitatif Risques</td>
-               <td>Groupe BPCE</td>
-               <td>Groupe BPCE</td>
-               <td>BPCE05709</td>
-               <td></td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>21</td>
-               <td>Business Analyst - Market & Static Data (F/H)</td>
-               <td>Natixis</td>
-               <td>Groupe BPCE</td>
-               <td>0</td>
-               <td>18/02/2026</td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>22</td>
-               <td>IT Quant Pretrade (F/H)</td>
-               <td>Natixis</td>
-               <td>Groupe BPCE</td>
-               <td>0</td>
-               <td>06/02/2026</td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>23</td>
-               <td>IT Quant - Market Risk Var (F/H)</td>
-               <td>Natixis</td>
-               <td>Groupe BPCE</td>
-               <td>0</td>
-               <td>05/02/2026</td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>24</td>
-               <td>ANALYSTE QUANTITATIF RISQUES (F/H)</td>
-               <td>Natixis</td>
-               <td>Groupe BPCE</td>
-               <td>0</td>
-               <td>06/02/2026</td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>25</td>
-               <td>IT Quant Pretrade & XVA (F/H)</td>
-               <td>Natixis</td>
-               <td>Groupe BPCE</td>
-               <td>18832</td>
-               <td></td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>26</td>
-               <td>Developer Global Markets Risk Monitoring (F/H)</td>
-               <td>Natixis</td>
-               <td>Groupe BPCE</td>
-               <td>0</td>
-               <td>18/02/2026</td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-            <tr>
-               <td>27</td>
-               <td>Chef de projet Risques de Marché (F/H)</td>
-               <td>Natixis</td>
-               <td>Groupe BPCE</td>
-               <td>0</td>
-               <td>06/02/2026</td>
-               <td>02/03/2026</td>
-               <td>En cours</td>
-               <td></td>
-               <td></td>
-               <td></td>
-               <td>CV France Travail</td>
-            </tr>
-         </tbody>
-      </table>
+      <header>
+         <a href="index.html" class="btn">Home</a>
+         <h1>Suivi des candidatures</h1>
+      </header>
+      <div class="container">
+         <table>
+            <thead>
+               <tr>
+                  <th>#</th>
+                  <th>Offre</th>
+                  <th>Entreprise</th>
+                  <th>Source</th>
+                  <th>Lien</th>
+                  <th>Date publication</th>
+                  <th>Date candidature</th>
+                  <th>Statut</th>
+                  <th>Relance</th>
+                  <th>Reponse</th>
+                  <th>Notes</th>
+                  <th>Document</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>1</td>
+                  <td>Gestionnaire risques bancaires F/H</td>
+                  <td>0</td>
+                  <td>France Travail</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>09/01/2026</td>
+                  <td>Cloture</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>2</td>
+                  <td>Responsable IT et Support en pré embauche</td>
+                  <td>FreeWork</td>
+                  <td>FreeWork</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>12/01/2026</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>3</td>
+                  <td> Collateral Business Analyst - Client Services position</td>
+                  <td>Murex</td>
+                  <td>Murex Website</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>14/01/2026</td>
+                  <td>Cloture</td>
+                  <td></td>
+                  <td>Non Retenu</td>
+                  <td>Entretien RH</td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>4</td>
+                  <td>Head of Operational Design</td>
+                  <td>ING</td>
+                  <td>ING</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>20/01/2026</td>
+                  <td>Cloture</td>
+                  <td></td>
+                  <td>Non Retenu</td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>5</td>
+                  <td>Chef de projet Data</td>
+                  <td>FreeWork</td>
+                  <td>FreeWork</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>21/01/2026</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>6</td>
+                  <td>Market Data Risk Analyst</td>
+                  <td>ING</td>
+                  <td>ING</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>27/01/2026</td>
+                  <td>Cloture</td>
+                  <td></td>
+                  <td>Non Retenu</td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>7</td>
+                  <td> Counterparty Credit Risk Methodology Strat</td>
+                  <td>Deutsche Bank</td>
+                  <td>Deutsche Bank</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>28/01/2026</td>
+                  <td>Cloture</td>
+                  <td></td>
+                  <td>Non Retenu</td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>8</td>
+                  <td>Product Design</td>
+                  <td>FreeWork</td>
+                  <td>FreeWork</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>28/01/2026</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>9</td>
+                  <td>Ingénieur Python / Automatisation</td>
+                  <td>FreeWork</td>
+                  <td>FreeWork</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>28/01/2026</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>10</td>
+                  <td>Senior Portfolio Manager Analyst</td>
+                  <td>BNP Paribas</td>
+                  <td>BNP Paribas</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>02/02/2026</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>11</td>
+                  <td>Model Risk Manager</td>
+                  <td>BNP Paribas</td>
+                  <td>BNP Paribas</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>02/02/2026</td>
+                  <td>Cloture</td>
+                  <td></td>
+                  <td>Non Retenu</td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>12</td>
+                  <td>Ingénieur support applicatif Equity</td>
+                  <td>Credit Agricole</td>
+                  <td>Credit Agricole</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>02/02/2026</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>13</td>
+                  <td>Analyste quantitatif</td>
+                  <td>Credit Agricole</td>
+                  <td>Credit Agricole</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>02/02/2026</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>14</td>
+                  <td>Senior Consultant - Transformation</td>
+                  <td>Allianz Groupe</td>
+                  <td>Allianz Groupe</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>17/11/2025</td>
+                  <td></td>
+                  <td>10/02/2026</td>
+                  <td></td>
+                  <td></td>
+                  <td>CV WW</td>
+               </tr>
+               <tr>
+                  <td>15</td>
+                  <td>Data Quality Specialist</td>
+                  <td>Allianz Groupe</td>
+                  <td>Allianz Groupe</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>07/11/2025</td>
+                  <td>Cloture</td>
+                  <td></td>
+                  <td>Non Retenu</td>
+                  <td></td>
+                  <td>CV WW</td>
+               </tr>
+               <tr>
+                  <td>16</td>
+                  <td>Data analyst</td>
+                  <td>Allianz Groupe</td>
+                  <td>Allianz Groupe</td>
+                  <td>0</td>
+                  <td></td>
+                  <td>17/11/2025</td>
+                  <td>Cloture</td>
+                  <td></td>
+                  <td>Non Retenu</td>
+                  <td></td>
+                  <td>CV WW</td>
+               </tr>
+               <tr>
+                  <td>17</td>
+                  <td> Gestionnaire Middle Office Opérations Financières H/F-CDD</td>
+                  <td>Banque Palatine</td>
+                  <td>Groupe BPCE</td>
+                  <td>BQPA03388</td>
+                  <td></td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>18</td>
+                  <td>Risk Manager (F/H)</td>
+                  <td>Natixis</td>
+                  <td>Groupe BPCE</td>
+                  <td>0</td>
+                  <td>19/12/2025</td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>19</td>
+                  <td>Data Analyst (F/H)</td>
+                  <td>Groupe BPCE</td>
+                  <td>Groupe BPCE</td>
+                  <td>BPCE_INFO01118</td>
+                  <td></td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>20</td>
+                  <td>Ingénieur Quantitatif Risques</td>
+                  <td>Groupe BPCE</td>
+                  <td>Groupe BPCE</td>
+                  <td>BPCE05709</td>
+                  <td></td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>21</td>
+                  <td>Business Analyst - Market & Static Data (F/H)</td>
+                  <td>Natixis</td>
+                  <td>Groupe BPCE</td>
+                  <td>0</td>
+                  <td>18/02/2026</td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>22</td>
+                  <td>IT Quant Pretrade (F/H)</td>
+                  <td>Natixis</td>
+                  <td>Groupe BPCE</td>
+                  <td>0</td>
+                  <td>06/02/2026</td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>23</td>
+                  <td>IT Quant - Market Risk Var (F/H)</td>
+                  <td>Natixis</td>
+                  <td>Groupe BPCE</td>
+                  <td>0</td>
+                  <td>05/02/2026</td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>24</td>
+                  <td>ANALYSTE QUANTITATIF RISQUES (F/H)</td>
+                  <td>Natixis</td>
+                  <td>Groupe BPCE</td>
+                  <td>0</td>
+                  <td>06/02/2026</td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>25</td>
+                  <td>IT Quant Pretrade & XVA (F/H)</td>
+                  <td>Natixis</td>
+                  <td>Groupe BPCE</td>
+                  <td>18832</td>
+                  <td></td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>26</td>
+                  <td>Developer Global Markets Risk Monitoring (F/H)</td>
+                  <td>Natixis</td>
+                  <td>Groupe BPCE</td>
+                  <td>0</td>
+                  <td>18/02/2026</td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+               <tr>
+                  <td>27</td>
+                  <td>Chef de projet Risques de Marché (F/H)</td>
+                  <td>Natixis</td>
+                  <td>Groupe BPCE</td>
+                  <td>0</td>
+                  <td>06/02/2026</td>
+                  <td>02/03/2026</td>
+                  <td>En cours</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>CV France Travail</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
    </body>
 </html>
